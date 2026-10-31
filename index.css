@@ -128,3 +128,10 @@ button:active {
         padding: 22px 20px;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar,
+    h1 {
+        position: static;
+    }
+}
